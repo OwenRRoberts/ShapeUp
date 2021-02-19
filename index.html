@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape up and Shape Out</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!--making a rectangle submit form -->
+    <div>
+        <label class="bigger-font">Rectangle</label>
+    </div>
+    <div>
+        <label>Width:</label>
+        <input type="number" min="0" max="600" id="rect-width" name='name'>
+        <label>Height: </label>
+        <input type="number" min="0" max="600" id="rect-height" name='name'>
+        <button id='rect-button'>Submit</button>
+    </div>
+
+    <!--making a Square submit form-->
+    <div>
+        <label class="bigger-font">Square</label>
+    </div>
+    <div>
+        <label>Side Length</label>
+        <input type="number" min="0" max="600" id="square-side-length" name='name'>
+        <button id='square-button'>Submit</button>
+    </div>
+
+    <!--Circle Submit form-->
+    <div>
+        <label class="bigger-font">Circle</label>
+    </div>
+    <div>
+        <label>Radius</label>
+        <input type="number" min="0" max="600" id="circle-radius" name='name'>
+        <button id='circle-button'>Submit</button>
+    </div>
+
+    <!--Triangle Submit form-->
+    <div>
+        <label class="bigger-font">Triangle</label>
+    </div>
+    <div>
+        <label>Height</label>
+        <input type="number" min="0" max="600" id="triangle-height" name='name'>
+        <button id='triangle-button'>Submit</button>
+    </div>
+
+    <br>
+
+    <!--creating the properties info...stuff-->
+    <div id='container'></div>
+    <div class='prop-container'>
+        <ul>
+            <li>Shape Name- </li>
+            <li>Width- </li>
+            <li>Height- </li>
+            <li>Radius- </li>
+            <li>Area- </li>
+            <li>Perimiter- </li>
+        </ul>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

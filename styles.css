@@ -1,0 +1,59 @@
+/* .div{
+    
+} */
+
+.bigger-font{
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+#container{
+    width: 600px;
+    height: 600px;
+    background-color: aquamarine;
+    display: inline-block;
+    position: relative;
+    border-color: black;
+    border-radius: 5px; 
+}
+
+.prop-container{
+    position: relative;
+    top: -30em;
+    left: 50em;
+    width: 100em;
+    height: 25em;
+    border-radius: 5px;
+    border-color: black;
+}
+li{
+    padding-bottom: 1.5em;
+}
+
+.rectangle{
+    position: absolute;
+    background: green;
+    width: 200px;
+    height: 200px;
+}
+
+.square{
+    position: absolute;
+    background: red;
+}
+
+.circle{
+    position: absolute;
+    border-radius: 50%;
+    background: purple;
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    position: absolute;
+    background: yellow;
+    border-color: yellow;
+    border-bottom-color: yellow;
+    border-style: solid;
+}
